@@ -18,13 +18,14 @@ import {
 
 import HomeScreen from './src/Screens/Home';
 //import Entype from 'react-native-vector-icons/Entypo'
-
+import Post from './src/Components/Post';
 const App: () => React$Node = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
-        <HomeScreen />
+        <Post />
+       {/* <HomeScreen /> */}
       </SafeAreaView>
     </>
   );
